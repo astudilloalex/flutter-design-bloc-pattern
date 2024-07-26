@@ -11,6 +11,7 @@ class DeliveryOptionScreen extends StatelessWidget {
         title: Text(
           AppLocalizations.of(context)!.debitCard,
         ),
+        centerTitle: false,
       ),
     );
   }

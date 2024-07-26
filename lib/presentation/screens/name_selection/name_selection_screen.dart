@@ -11,6 +11,7 @@ class NameSelectionScreen extends StatelessWidget {
         title: Text(
           AppLocalizations.of(context)!.personalization,
         ),
+        centerTitle: false,
       ),
     );
   }
